@@ -9,4 +9,13 @@ public class Texto {
 	public static String letrasMinusculas(String texto1) {
 		return texto1.toLowerCase();
 	}
+	
+	public static int quantidadeDeCaracteres(String texto1) {
+		if (texto1 != null) {
+			return texto1.length();
+		}
+		else {
+			return 0;
+		}
+	}
 }
